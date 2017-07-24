@@ -7,5 +7,6 @@ app.get('/', function(req, res) {
    res.sendFile('project/index.html');
 });
 
-console.log('server is running on port',process.env.PORT) 
-app.listen(process.env.PORT||5000)
+var port = process.env.PORT||5000;
+console.log('server is running on port:',port) 
+app.listen(port)
