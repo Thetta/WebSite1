@@ -1,0 +1,16 @@
+{
+  "name": "MyProject",
+  "private": true,
+  "version": "0.0.1",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "file-system": "^2.2.2"
+  },
+
+  "scripts": {
+    "start": "node index.js",
+    "github": "git add -A && git commit -m \"fixes\" && git push origin master"
+  }
+}
