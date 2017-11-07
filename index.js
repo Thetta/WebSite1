@@ -1,7 +1,10 @@
 var express = require('express');
 var app = express();
+
+var redirectToHTTPS = require('express-http-to-https').redirectToHTTPS
  
 app.use(express.static('project'));
+app.use(redirectToHTTPS('', '');
 
 app.get('/', function(req, res) {
    res.sendFile('project/index.html');
