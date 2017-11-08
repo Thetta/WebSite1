@@ -1,4 +1,4 @@
-#Node.js + express template
+# Simple Node.js + Express app template
 
 ## Deploy to Heroku
 Can be easily deployed to Heroku.
