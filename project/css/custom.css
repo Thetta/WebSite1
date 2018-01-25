@@ -289,7 +289,13 @@ header nav.navbar .navbar-header {
     padding: 55px 0 15px 0px;
 }
 
-.team-2 .team-member .member-img img {
+.team-2 .team-member .new-member-img {
+    padding: 0px 0 15px 0px;
+}
+
+.team-2 .team-member .member-img img,
+.team-2 .team-member .new-member-img img
+{
     border-radius: 50%;
     vertical-align: middle;    
     border: 0;  
@@ -298,7 +304,14 @@ header nav.navbar .navbar-header {
     height: auto;
 }
 
-.team-2 .team-member .member-info .position {
+.team-2 .team-member .member-info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.team-2 .team-member .member-info .position,
+.team-2 .team-member .new-member-info .position
+{
     font-weight: bold;
     margin-bottom: 4%;
     letter-spacing: 0.5px;
