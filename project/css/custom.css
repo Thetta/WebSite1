@@ -1,0 +1,450 @@
+/* ==========================
+	General Styles 
+=========================== */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+code {
+    font-size: 1.3em;
+    color: navy;
+    background-color: transparent;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    text-align: left;
+    font-family: "Varela Round";
+    text-transform: capitalize;
+}
+
+.section-header2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-header2 h2 {
+    text-align: left;
+    font-family: "Varela Round";
+    text-transform: capitalize;
+}
+
+header nav.navbar .navbar-header a.navbar-brand {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 28px;
+}
+header nav.navbar .navbar-morki ul.nav li a {
+    font-weight: 500;
+    font-size: 14px;
+}
+header nav.navbar .navbar-morki ul.nav li.active a {
+    background: none;
+    color: #3e8ef9 !important;
+}
+
+header nav.navbar .navbar-morki ul.nav li.invert-active a {
+    background: none;
+    color: #3e8ef9 !important;
+}
+header nav.navbar .navbar-morki ul.nav li a:hover {
+    color: #58afcf !important;
+}
+header .is-sticky nav.navbar {
+    background: #1D3557;
+}
+
+::selection {
+    background: #1D3557;
+    color: #A8DADC;
+}
+
+
+/* ==========================
+	Navbar
+=========================== */
+.navbar-default .navbar-brand {
+    /*link color*/
+    color: #337ab7;
+
+    /*color: #1D3557;*/
+}
+
+.brand-logo {
+    /* TODO: */
+    /*background-image: url(../images/brand-logo.png);*/
+    color: #337ab7;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50px;
+    min-width: 185px;
+
+    font-weight: 600;
+    font-size: 40px;
+
+    padding-left: 0 !important;
+}
+
+header nav.navbar {
+    background-color: #F1FAEE;
+}
+
+header nav.navbar .navbar-morki ul.nav li a {
+    color: #212867;
+}
+
+header .is-sticky nav.navbar {
+    background: #F1FAEE;
+}
+
+header nav.navbar .navbar-morki {
+    padding-top: 5px;
+}
+
+header nav.navbar .navbar-header {
+    padding-top: 5px;
+}
+
+#no-effect:hover {
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+/* ==================================================
+	Index 
+=================================================== */
+/* Intro styles */
+.intro {
+    padding: 30px 0 0 0;
+    background: #1D3557;
+    background: -moz-linear-gradient(-45deg, #1D3557 0%, #A8DADC 100%);
+    background: -webkit-linear-gradient(-45deg, #1D3557 0%,#A8DADC 100%);
+    background: linear-gradient(135deg, #1D3557 0%,#A8DADC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D3557', endColorstr='#A8DADC',GradientType=1 );
+}
+.intro .intro-info .intro-info-content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro .intro-info .intro-info-content p {
+    line-height:32px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro .intro-info .intro-info-content ul li a {
+    font-weight: 500;
+}
+.intro .intro-info .intro-info-content ul li a:hover {
+    color:#F1FAEE;
+    background-color:#2C4F64;
+    border-color: #F1FAEE;
+}
+.intro .intro-info .intro-info-content ul li:first-child a {
+    background: transparent;
+}
+.intro .intro-info .intro-info-content ul li:nth-child(2) a {
+    background: #F1FAEE;
+    color: #1d0d32;
+}
+.intro .intro-info .intro-info-content ul li:first-child a:hover {
+    /*background: #1D3557;*/
+    /*border-color:#1D3557*/
+
+    /*
+    background: #A8DADC;
+    color: #1D3557;
+    */
+
+    background: #1D3557;
+    color: #F1FAEE;
+}
+
+.intro-image-content > img {
+    /*max-width:75%;*/
+    margin:0 auto;
+}
+
+.cta-button li {
+    display:inline-block;
+}
+
+.cta-button a:hover{
+    background-color: #2C4F64;
+    border: 2px solid #2C4F64;
+    border-color: #1d0d32;
+}
+
+.cta-button li .button-fix {
+    color:#F1FAEE;
+    display: inline-block;
+    padding: 15px 45px;
+    border: 2px solid #F1FAEE;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Technology Preview */
+.tech-preview {
+    padding: 100px 0;
+    background: #f4f4f4;
+}
+
+.contact-info-list a {
+    letter-spacing: 1.2px;
+    color: #F1FAEE;
+}
+
+.contact-details p {
+    padding-right:20%;
+}
+
+/* FAQs */
+.faqs .faq-single .faq-icon span {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+}
+
+/* Contact */
+.contact {
+    background: #1D3557;
+    background: -moz-linear-gradient(-45deg, #1D3557 0%, #A8DADC 100%);
+    background: -webkit-linear-gradient(-45deg, #1D3557 0%,#A8DADC 100%);
+    background: linear-gradient(135deg, #1D3557 0%,#A8DADC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D3557', endColorstr='#A8DADC',GradientType=1 );
+}
+
+::-webkit-input-placeholder { color: #EBEBEB; }
+::-moz-placeholder {color: #EBEBEB; }
+:-ms-input-placeholder { color: #EBEBEB; }
+:-o-input-placeholder { color: #EBEBEB; }
+
+.contact .contact-wrapper form .form-group button {
+    font-weight: 500;
+}
+
+
+/* ==================================================
+	Technology Page
+=================================================== */
+.tech-intro {
+    padding: 150px 0px 100px 0px;
+}
+.tech-intro .tech-intro-content {
+    padding: 0px 20px 0px 0px;
+}
+
+.tech-hiw-content {
+    margin-bottom:100px;
+}
+.tech-hiw-content p {
+    width:75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hiw-image img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.smaller {
+    width:50%;
+    margin:0 auto;
+}
+
+.tech-application {
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.tech-application h3 {
+    margin-top:-20px;
+}
+
+.tech-application img {
+    width:50%;
+    margin: 0 auto;
+}
+
+.tech-application p {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+
+/* ==================================================
+	Team Page
+=================================================== */
+.team-2 .team-member .member-img {
+    padding: 55px 0 15px 0px;
+}
+
+.team-2 .team-member .member-img img {
+    border-radius: 50%;
+    vertical-align: middle;    
+    border: 0;  
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-2 .team-member .member-info .position {
+    font-weight: bold;
+    margin-bottom: 4%;
+    letter-spacing: 0.5px;
+    display: block;
+    text-align: center;
+}
+
+.team-2 h3.name {
+    text-align: center;
+}
+
+.social-btn {
+    list-style: none;
+    margin-bottom: auto;
+    padding-left: 0;
+    text-align: center;
+}
+
+.social-btn li {
+    display: inline-block;
+}
+
+.social-btn li a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.member-img img {
+    max-width: 35% !important;
+    margin: 0 auto !important;
+}
+
+.member-info p {
+    text-align: justify;
+}
+
+
+/* ==================================================
+	Careers Page
+=================================================== */
+.careers {
+    padding: 120px 0;
+}
+.careers-mission-para {
+    margin-bottom: 40px;
+    font-family: "Poppins";
+}
+.careers-mission-para p {
+    font-size:16px;
+    line-height: 30px;
+}
+.careers-mission-bold {
+    color: #443bb4;
+    font-weight: 600;
+}
+.careers-separator {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    height: 1px;
+    background-color: #e9e9e9;
+}
+.careers-positions-title{
+    margin-bottom:30px;
+}
+
+
+/* ==================================================
+	Product Details
+=================================================== */
+.tech-products {
+    padding: 50px 0px 50px 0px;
+}
+.tech-prod-single {
+    margin-bottom: 50px;
+}
+.tech-prod-single .tech-prod-icon,
+.tech-prod-single .lnd-logo,
+.tech-prod-single .tech-prod-content {
+    display: table-cell;
+    vertical-align: top;
+}
+.tech-prod-single .tech-prod-icon span {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background: #A8DADC;
+    font-size: 30px;
+    text-align: center;
+    color: #F1FAEE;
+    padding-top: 0px;
+}
+.tech-prod-single .tech-prod-content {
+    padding-left: 30px;
+}
+.tech-prod-single .tech-prod-content h3 {
+    margin: 0 0 10px 0;
+    line-height: 26px;
+    text-transform: none;
+}
+.tech-prod-single .tech-prod-content p {
+    margin-bottom: 0;
+}
+
+
+/* ==================================================
+	Product Details
+=================================================== */
+/* Download App */
+.download-app {
+    background: #A8DADC;
+    background: -moz-linear-gradient(-45deg, #A8DADC 0%, #6bc7b2 100%);
+    background: -webkit-linear-gradient(-45deg, #A8DADC 0%,#6bc7b2 100%);
+    background: linear-gradient(135deg, #A8DADC 0%,#6bc7b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A8DADC', endColorstr='#6bc7b2',GradientType=1 );
+
+    font-size: 1.1em;
+}
+
+.download-app a {
+    font-size: 20px;
+}
+
+/* ==========================
+	Loading page
+=========================== */
+.invert-color {
+    color:#A8DADC !important;
+}
+
+.invert-color:hover {
+    color:#000 !important;
+} 

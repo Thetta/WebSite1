@@ -1,0 +1,80 @@
+@media (max-width: 1200px) {
+    .collapse.in {
+        background: transparent;
+    }
+    header nav.navbar .navbar-morki.collapse.in ul.nav li.nav-download-btn a {
+        background: #3a8aff;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar,
+    .navbar-default .navbar-toggle:focus .icon-bar {
+        background-color: #3a8aff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #1bb9d8;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background: rgba(0, 255, 255, 0) !important;
+    }
+}
+
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .intro .intro-image {
+        height: auto;
+    }
+    .intro .intro-info {
+        height: 780px;
+        position: relative;
+    }
+    .intro .intro-image .intro-image-content {
+        margin-top: 130px;
+    }
+}
+
+
+/* Mobile Layout: 480px */
+@media only screen and (max-width: 767px) {
+    .intro .intro-info {
+        height: 750px;
+        min-height: 750px;
+    }
+    .intro .intro-image {
+        height: 450px;
+        position: relative;
+    }
+    .intro .intro-image .intro-image-content {
+	transform:translateY(-60%);
+    }
+    .intro-image {
+        display: none;
+    }
+}
+
+
+/* Small Mobile Layout: 320px */
+@media only screen and (max-width: 480px) {
+    /* Navbar */
+    #no-effect {
+        display: none;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        margin-top: 10px;
+    }
+
+    /* Index Page */
+    .intro .intro-info .intro-info-content {
+        height: 600px;
+    }
+    .intro {
+        min-height: 1000px;
+    }
+    .cta-button li {
+        margin-bottom:0;
+    }
+
+    /* Technology page */
+    .tech-hiw-content p {
+        width: 90%;
+    }
+}
