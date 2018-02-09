@@ -167,6 +167,15 @@ header nav.navbar .navbar-header {
     color: #F1FAEE;
 }
 
+.intro .intro-info .intro-info-content ul.list-red li a {
+    color: #1b1b1b;
+    background: #ef494d;
+}
+
+.intro .intro-info .intro-info-content ul.list-red li a:hover {
+    background: #9b2e31;
+}
+
 .intro-image-content > img {
     /*max-width:75%;*/
     margin:0 auto;
