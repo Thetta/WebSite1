@@ -1,7 +1,7 @@
 {
-  "name": "MyProject",
+  "name": "Thetta-WebSite1",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {},
   "dependencies": {
     "express": "^4.15.3",
@@ -9,7 +9,6 @@
     "file-system": "^2.2.2"
   },
   "scripts": {
-    "start": "node index.js",
-    "github": "git add -A && git commit -m \"fixes\" && git push origin master"
+    "start": "node index.js"
   }
 }

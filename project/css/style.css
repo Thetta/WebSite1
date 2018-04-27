@@ -1229,6 +1229,64 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 
+/* Videos */
+.videos{
+    padding: 120px 0;
+}
+
+.videos h3{
+    margin: 0 0 20px 0;
+}
+
+.videos .video {
+     margin: 20px 0 20px 0;
+}
+
+
+/* Download App */
+.download-app {
+    padding: 120px 0;
+    text-align: center;
+    background: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.download-app:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(239, 73, 77, 0.9);
+}
+.download-app h2 {
+    margin: 0 0 25px 0;
+    color: #fff;
+}
+.download-app p {
+    color: #fff;
+    margin-bottom: 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.download-app ul {
+    margin: 50px 0 0 0;
+}
+.download-app ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.download-app ul li a{
+	display: block;
+}
+.download-app ul li:last-child {
+    margin-right: 0;
+}
+
 
 /* Download App */
 .download-app {
