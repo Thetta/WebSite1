@@ -1230,15 +1230,21 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 
 /* Videos */
-.videos{
-    padding: 120px 0;
+.media {
+    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
-.videos h3{
+.media2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.media h3, .media2 h3 {
     margin: 0 0 20px 0;
 }
 
-.videos .video {
+.media .item, .media2 .item {
      margin: 20px 0 20px 0;
 }
 
