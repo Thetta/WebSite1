@@ -1435,7 +1435,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     text-transform: none;
 }
 .faqs .faq-single .faq-content p {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 
