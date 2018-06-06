@@ -1454,6 +1454,17 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-bottom: 5px;
 }
 
+.faqs .faq-single .faq-content ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+	 font-size: 15px;
+    line-height: 25px;
+    color: #616161;
+}
+
+.faqs .faq-single .faq-content ul li {
+    margin-bottom: 5px;
+}
 
 /* Video */
 .video-featured {
