@@ -147,33 +147,34 @@ header nav.navbar .navbar-header {
     background-color:#2C4F64;
     border-color: #F1FAEE;
 }
+
+.intro .intro-info .intro-info-content ul li {
+	margin-top: 10px;
+}
+
 .intro .intro-info .intro-info-content ul li:first-child a {
-    background: transparent;
-}
-.intro .intro-info .intro-info-content ul li:nth-child(2) a {
-    background: #F1FAEE;
-    color: #1d0d32;
-}
-.intro .intro-info .intro-info-content ul li:first-child a:hover {
-    /*background: #1D3557;*/
-    /*border-color:#1D3557*/
-
-    /*
-    background: #A8DADC;
-    color: #1D3557;
-    */
-
-    background: #1D3557;
-    color: #F1FAEE;
-}
-
-.intro .intro-info .intro-info-content ul.list-red li a {
+    /*background: transparent;*/
     color: #1b1b1b;
     background: #ef494d;
 }
+.intro .intro-info .intro-info-content ul li:first-child a:hover {
+    /*
+	 background: #1D3557;
+    color: #F1FAEE;
+	 */
+    /*background: #9b2e31;*/
 
-.intro .intro-info .intro-info-content ul.list-red li a:hover {
-    background: #9b2e31;
+    background: #F1FAEE;
+    color: #1d0d32;
+}
+
+.intro .intro-info .intro-info-content ul li:nth-child(2) a {
+	 background: #1D3557;
+    color: #F1FAEE;
+}
+.intro .intro-info .intro-info-content ul li:nth-child(2) a:hover {
+    background: #F1FAEE;
+    color: #1d0d32;
 }
 
 .intro-image-content > img {

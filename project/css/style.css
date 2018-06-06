@@ -446,8 +446,24 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #fff;
     margin-bottom: 0;
 }
+
+.intro .intro-info .intro-info-content .pro-info {
+    color: #fff;
+    margin-bottom: 0;
+	 margin-left: 10px;
+}
+
+.intro .intro-info .intro-info-content .pro-info-header {
+	margin-bottom: 5px;
+}
+
+.intro .intro-info .intro-info-content .pro-info {
+	padding-left: 25px;
+}
+
 .intro .intro-info .intro-info-content ul {
-    margin: 40px 0 0 0;
+    margin: 60px 0 0 0;
+	 color: #fff;
 }
 .intro .intro-info .intro-info-content ul li {
     display: inline-block;
