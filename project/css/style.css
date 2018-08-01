@@ -510,7 +510,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Services */
 .services {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .services .service-box {
     padding: 30px;
@@ -584,7 +584,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* About App */
 .about-app {
-    padding: 120px 0;
+    padding: 80px 0;
     background: #f4f4f4;
 }
 .about-app .app-info {
@@ -624,7 +624,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* App Features */
 .app-features {
-    padding: 120px 0;
+    padding: 80px 0;
     overflow: hidden;
 }
 .app-features .features-left {
@@ -796,7 +796,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Screenshot */
 .screenshots {
-    padding: 120px 0;
+    padding: 80px 0;
     overflow: hidden;
 }
 .screenshots .section-header {
@@ -975,7 +975,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Price Table */
 .price-table {
-    padding: 120px 0 80px 0;
+    padding: 80px 0 80px 0;
 }
 .price-table .price-table-wrapper {
     background: #f4f4f4;
@@ -1051,7 +1051,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Testimonial */
 .testimonial {
-    padding: 120px 0;
+    padding: 80px 0;
     background: #f4f4f4;
 }
 .testimonial .testimonial-slider .slide-single .client-info {
@@ -1135,7 +1135,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Team */
 .team {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .team .team-carousel .team-single:hover figure figcaption {
     visibility: visible;
@@ -1247,7 +1247,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Videos */
 .media {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 
@@ -1267,7 +1267,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Download App */
 .download-app {
-    padding: 120px 0;
+    padding: 80px 0;
     text-align: center;
     background: url(../images/intro-bg.jpg);
     background-size: cover;
@@ -1312,7 +1312,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Download App */
 .download-app {
-    padding: 120px 0;
+    padding: 80px 0;
     text-align: center;
     background: url(../images/intro-bg.jpg);
     background-size: cover;
@@ -1358,7 +1358,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Changle Log */
 .change-log {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .change-log .changelog-timeline {
     position: relative;
@@ -1418,7 +1418,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* FAQs */
 .faqs {
-    padding: 120px 0;
+    padding: 80px 0;
     background: #f4f4f4;
 }
 .faqs .faq-single {
@@ -1463,6 +1463,56 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 
 .faqs .faq-single .faq-content ul li {
+    margin-bottom: 5px;
+}
+
+/* Partners*/
+.partners {
+    padding: 80px 0;
+	 background: rgba(40, 27, 58, 0.1);
+}
+.partners .partner-single {
+    margin-bottom: 50px;
+}
+.partners.partner-single:last-child {
+    margin-bottom: 0;
+}
+.partners.partner-single .partner-icon,
+.partners .partner-single .partner-content {
+    display: table-cell;
+    vertical-align: top;
+}
+.partners .partner-single .partner-icon span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #ef494d;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+.partners .partner-single .partner-content {
+    padding-left: 30px;
+}
+.partners .partner-single .partner-content h3 {
+    margin: 0 0 10px 0;
+    line-height: 26px;
+    text-transform: none;
+}
+.partners .partner-single .partner-content p {
+    margin-bottom: 5px;
+}
+
+.partners .partner-single .partner-content ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+	 font-size: 15px;
+    line-height: 25px;
+    color: #616161;
+}
+
+.partners .partner-single .partner-content ul li {
     margin-bottom: 5px;
 }
 
@@ -1514,7 +1564,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Blog */
 .blog {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .blog .blog-single figure figcaption {
     position: relative;
@@ -1602,7 +1652,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 /* Contact */
 .contact {
-    padding: 120px 0;
+    padding: 80px 0;
     background: url(../images/footer-bg.jpg);
     position: relative;
     background-position: center;
@@ -1921,7 +1971,7 @@ footer p#back-top a:hover {
 	Blog Page
 =================================================== */
 .blog-wrapper {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .blog-wrapper .blog-content .blog-single {
     margin-bottom: 70px;
@@ -2283,7 +2333,7 @@ footer p#back-top a:hover {
 	Team Page Style
 =================================================== */
 .team-wrapper {
-    padding: 120px 0 60px 0;
+    padding: 80px 0 60px 0;
 }
 .team-wrapper .team-single {
     margin-bottom: 60px;
@@ -2485,7 +2535,7 @@ footer p#back-top a:hover {
 	Gallery Page Style
 ================================== */
 .gallery-wrapper {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 .gallery-wrapper .portfolio-content figure {
     position: relative;
@@ -2579,7 +2629,7 @@ footer p#back-top a:hover {
 	Shop Page Style
 ================================== */
 .shop-wrapper {
-    padding: 120px 0 60px 0;
+    padding: 80px 0 60px 0;
 }
 .shop-wrapper .single-product {
     margin-bottom: 60px;
